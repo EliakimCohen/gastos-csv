@@ -46,18 +46,3 @@ Incluem centavos exatos, categorias, filtro de mês, datas inválidas, colunas a
 ## Por que Decimal?
 
 Valores monetários precisam preservar centavos. A conversão vai diretamente do texto para `Decimal`, sem passar por `float`. No JSON, totais são strings como `"199.90"` para manter a representação decimal.
-
-## Evolua o projeto
-
-- Adicionar orçamento mensal e comparação com despesas.
-- Exportar gráficos por categoria.
-- Criar leitura em fluxo para arquivos grandes.
-
-## Para explicar numa entrevista
-
-1. Por que não somar dinheiro com `float`?
-2. Como validar um CSV antes de confiar nos dados?
-3. Por que uma função de resumo não grava arquivos?
-4. Como representar centavos em uma resposta JSON?
-
-Projeto de estudo preparado com apoio de IA para evolução prática. Dados fictícios; não é uma ferramenta de aconselhamento financeiro.
